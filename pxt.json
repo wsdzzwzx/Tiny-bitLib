@@ -1,7 +1,7 @@
 {
     "name": "Tinybit",
-    "version": "2.0.4",
-    "description": "Yahboom Tiny:bit car extension - self-contained repack (no neopixel/asm dependency, fixes 'sendBufferAsm label redefinition')",
+    "version": "2.1.0",
+    "description": "Yahboom Tiny:bit car extension - Chinese blocks built into main.ts (no _locales needed, no neopixel/asm dependency)",
     "license": "MIT",
     "dependencies": {
         "core": "*",
@@ -10,8 +10,7 @@
     "files": [
         "README.md",
         "LICENSE",
-        "main.ts",
-        "_locales/zh-cn/Tinybit-strings.json"
+        "main.ts"
     ],
     "public": true,
     "supportedTargets": [

@@ -69,98 +69,98 @@ namespace Tinybit {
 
     export enum enColor {
 
-        //% blockId="OFF" block="OFF"
+        //% blockId="OFF" block="灭"
         OFF = 0,
-        //% blockId="Red" block="Red"
+        //% blockId="Red" block="红色"
         Red,
-        //% blockId="Green" block="Green"
+        //% blockId="Green" block="绿色"
         Green,
-        //% blockId="Blue" block="Blue"
+        //% blockId="Blue" block="蓝色"
         Blue,
-        //% blockId="White" block="White"
+        //% blockId="White" block="白色"
         White,
-        //% blockId="Cyan" block="Cyan"
+        //% blockId="Cyan" block="青色"
         Cyan,
-        //% blockId="Pinkish" block="Pinkish"
+        //% blockId="Pinkish" block="品红"
         Pinkish,
-        //% blockId="Yellow" block="Yellow"
+        //% blockId="Yellow" block="黄色"
         Yellow,
 
     }
     export enum enMusic {
 
-        //% blockId="dadadum" block="dadadum"
+        //% blockId="dadadum" block="哒哒哒"
         dadadum = 0,
-        //% blockId="entertainer" block="entertainer"
+        //% blockId="entertainer" block="卖艺人"
         entertainer,
-        //% blockId="prelude" block="prelude"
+        //% blockId="prelude" block="前奏曲"
         prelude,
-        //% blockId="ode" block="ode"
+        //% blockId="ode" block="欢乐颂"
         ode,
-        //% blockId="nyan" block="nyan"
+        //% blockId="nyan" block="彩虹猫"
         nyan,
-        //% blockId="ringtone" block="ringtone"
+        //% blockId="ringtone" block="铃声"
         ringtone,
-        //% blockId="funk" block="funk"
+        //% blockId="funk" block="放克"
         funk,
-        //% blockId="blues" block="blues"
+        //% blockId="blues" block="蓝调"
         blues,
-        //% blockId="birthday" block="birthday"
+        //% blockId="birthday" block="生日歌"
         birthday,
-        //% blockId="wedding" block="wedding"
+        //% blockId="wedding" block="婚礼进行曲"
         wedding,
-        //% blockId="funereal" block="funereal"
+        //% blockId="funereal" block="葬礼进行曲"
         funereal,
-        //% blockId="punchline" block="punchline"
+        //% blockId="punchline" block="笑点"
         punchline,
-        //% blockId="baddy" block="baddy"
+        //% blockId="baddy" block="坏人登场"
         baddy,
-        //% blockId="chase" block="chase"
+        //% blockId="chase" block="追逐"
         chase,
-        //% blockId="ba_ding" block="ba_ding"
+        //% blockId="ba_ding" block="叮咚"
         ba_ding,
-        //% blockId="wawawawaa" block="wawawawaa"
+        //% blockId="wawawawaa" block="哇哇哇"
         wawawawaa,
-        //% blockId="jump_up" block="jump_up"
+        //% blockId="jump_up" block="跳跃上升"
         jump_up,
-        //% blockId="jump_down" block="jump_down"
+        //% blockId="jump_down" block="跳跃下降"
         jump_down,
-        //% blockId="power_up" block="power_up"
+        //% blockId="power_up" block="升级"
         power_up,
-        //% blockId="power_down" block="power_down"
+        //% blockId="power_down" block="降级"
         power_down
 
     }
     export enum enPos {
 
-        //% blockId="LeftState" block="LeftState"
+        //% blockId="LeftState" block="左边"
         LeftState = 0,
-        //% blockId="RightState" block="RightState"
+        //% blockId="RightState" block="右边"
         RightState = 1
     }
 
     export enum enLineState {
-        //% blockId="White" block="White Line"
+        //% blockId="White" block="白线"
         White = 0,
-        //% blockId="Black" block="Black Line"
+        //% blockId="Black" block="黑线"
         Black = 1
     }
     
     
     export enum CarState {
-        //% blockId="Car_Run" block="Run"
+        //% blockId="Car_Run" block="前进"
         Car_Run = 1,
-        //% blockId="Car_Back" block="Back"
+        //% blockId="Car_Back" block="后退"
         Car_Back = 2,
-        //% blockId="Car_Left" block="Left"
+        //% blockId="Car_Left" block="左转"
         Car_Left = 3,
-        //% blockId="Car_Right" block="Right"
+        //% blockId="Car_Right" block="右转"
         Car_Right = 4,
-        //% blockId="Car_Stop" block="Stop"
+        //% blockId="Car_Stop" block="停止"
         Car_Stop = 5,
-        //% blockId="Car_SpinLeft" block="SpinLeft"
+        //% blockId="Car_SpinLeft" block="原地左旋"
         Car_SpinLeft = 6,
-        //% blockId="Car_SpinRight" block="SpinRight"
+        //% blockId="Car_SpinRight" block="原地右旋"
         Car_SpinRight = 7
     }
 
@@ -245,7 +245,7 @@ namespace Tinybit {
      * @param index
      */   
 
-    //% blockId=Tinybit_RGB_Car_Program block="RGB_Car_Program"
+    //% blockId=Tinybit_RGB_Car_Program block="车身七彩流水灯"
     //% weight=99
     //% blockGap=10
     //% color="#006400"
@@ -261,7 +261,7 @@ namespace Tinybit {
         wsShow()
     }
 
-    //% blockId=Tinybit_RGB_Car_Big block="RGB_Car_Big|value %value"
+    //% blockId=Tinybit_RGB_Car_Big block="小车RGB探照灯|选择车灯颜色 %value"
     //% weight=98
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
@@ -302,7 +302,7 @@ namespace Tinybit {
             }
         }
     }
-    //% blockId=Tinybit_RGB_Car_Big2 block="RGB_Car_Big2|value1 %value1|value2 %value2|value3 %value3"
+    //% blockId=Tinybit_RGB_Car_Big2 block="小车RGB探照灯|红色 %value1|绿色 %value2|蓝色 %value3"
     //% weight=97
     //% blockGap=10
     //% value1.min=0 value1.max=255 value2.min=0 value2.max=255 value3.min=0 value3.max=255
@@ -312,7 +312,7 @@ namespace Tinybit {
         setPwmRGB(value1, value2, value3);
 
     }
-    //% blockId=Tinybit_Music_Car block="Music_Car|%index"
+    //% blockId=Tinybit_Music_Car block="小车音乐播放|%index"
     //% weight=95
     //% blockGap=10
     //% color="#006400"
@@ -344,7 +344,7 @@ namespace Tinybit {
     
     
     
-    //% blockId=Tinybit_CarCtrl block="CarCtrl|%index"
+    //% blockId=Tinybit_CarCtrl block="小车控制|%index"
     //% weight=93
     //% blockGap=10
     //% color="#006400"
@@ -361,7 +361,7 @@ namespace Tinybit {
         }
     }
     
-    //% blockId=Tinybit_CarCtrlSpeed block="CarCtrlSpeed|%index|speed %speed"
+    //% blockId=Tinybit_CarCtrlSpeed block="小车控制|%index|速度 %speed"
     //% weight=92
     //% blockGap=10
     //% speed.min=0 speed.max=255
@@ -379,7 +379,7 @@ namespace Tinybit {
         }
     }
     
-    //% blockId=Tinybit_CarCtrlSpeed2 block="CarCtrlSpeed2|%index|speed1 %speed1|speed2 %speed2"
+    //% blockId=Tinybit_CarCtrlSpeed2 block="小车控制|%index|左电机速度 %speed1|右电机速度 %speed2"
     //% weight=91
     //% blockGap=10
     //% speed1.min=0 speed1.max=255 speed2.min=0 speed2.max=255
@@ -399,7 +399,7 @@ namespace Tinybit {
         
    
     
-    //% blockId=Tinybit_Line_Sensor block="Line_Sensor|direct %direct|value %value"
+    //% blockId=Tinybit_Line_Sensor block="巡线传感器|位置 %direct|检测到 %value"
     //% weight=89
     //% blockGap=10
     //% color="#006400"
@@ -434,7 +434,7 @@ namespace Tinybit {
 
     }
 
-    //% blockId=Tinybit_Voice_Sensor block="Voice Sensor return"
+    //% blockId=Tinybit_Voice_Sensor block="声音传感器返回"
     //% weight=88
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12
@@ -447,7 +447,7 @@ namespace Tinybit {
 
     }
         
-    //% blockId=Tinybit_Ultrasonic_Car block="ultrasonic return distance(cm)"
+    //% blockId=Tinybit_Ultrasonic_Car block="超声波返回（cm）"
     //% color="#006400"
     //% weight=87
     //% blockGap=10
@@ -471,7 +471,7 @@ namespace Tinybit {
 				return  Math.floor(length);
     }
         
-    //% blockId=Tinybit_Ultrasonic_CarV2 block="ultrasonic for V2 return distance(cm)"
+    //% blockId=Tinybit_Ultrasonic_CarV2 block="microbit|V2|超声波返回（cm）"
     //% color="#006400"
     //% weight=87
     //% blockGap=10
@@ -489,7 +489,7 @@ namespace Tinybit {
 
     }
 
-    //% blockId=Tinybit_motor_pid block="Tinybit_motor_pid|motor_left:%sp_L|motor_right:%sp_R"
+    //% blockId=Tinybit_motor_pid block="小车运动|左电机速度 %sp_L|右电机速度 %sp_R"
     //% color="#006400"
     //% weight=87
     //% sp_L.min=-255 sp_L.max=255  sp_R.min=-255 sp_R.max=255
