@@ -1,0 +1,20 @@
+{
+    "name": "Tinybit",
+    "version": "2.0.4",
+    "description": "Yahboom Tiny:bit car extension - self-contained repack (no neopixel/asm dependency, fixes 'sendBufferAsm label redefinition')",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "README.md",
+        "LICENSE",
+        "main.ts",
+        "_locales/zh-cn/Tinybit-strings.json"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ]
+}
